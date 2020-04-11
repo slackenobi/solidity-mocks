@@ -1,6 +1,6 @@
 pragma solidity >= 0.5.0 < 0.7.0;
 
-import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/access/Roles.sol";
+import "./openzeppelin-2.5/access/Roles.sol";
 
 contract RBAC {
     using Roles for Roles.Role;

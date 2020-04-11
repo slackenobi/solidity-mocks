@@ -1,7 +1,7 @@
 pragma solidity >= 0.5.0 < 0.7.0;
 
-import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/ownership/Ownable.sol";
-import "github.com/OpenZeppelin/openzeppelin-solidity/contracts/access/Roles.sol";
+import "./openzeppelin-2.5/ownership/Ownable.sol";
+import "./openzeppelin-2.5/access/Roles.sol";
 
 contract RBAC is Ownable {
     using Roles for Roles.Role;
